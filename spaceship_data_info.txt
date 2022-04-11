@@ -1,0 +1,24 @@
+PassengerId - 각 승객의 고유 ID (gggg_pp - gggg:그룹, pp:그룹 내 번호)
+HomePlanet - 승객이 출발한 행성 (일반적으로 거주하는 행성)
+Cryosleep - 극저온 수면 선택 여부
+Cabin - 객실 번호 (좌현 P, 우현 S)
+Destination - 승객이 내릴 행성
+Age - 승객의 나이
+VIP - 항해중 특별 서비스를 주문했는지 여부
+RoomService, FoodCourt, ShoppingMall, Spa, VRDeck - 편의시설 청구 금액
+Name - 승객의 성과 이름
+Transported - 예측값, 승객이 다른 차원으로 운송되었는지 여부
+
+HomePlanet 
+"Earth" = 0
+"Mars" = 1
+"Europa" = 2
+
+Cabin
+"P" = 0
+"S" = 1
+
+Destination
+"TRAPPIST-1e" = 0
+"PSO J318.5-22" = 1
+"55 Cancri e" = 2
